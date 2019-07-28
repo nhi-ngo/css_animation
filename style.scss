@@ -64,7 +64,7 @@ body {
   position: $position;
   z-index: 2;
   bottom: 100px;
-  left: 50%;
+  left: 38%;
   width: 500px;
 }
 
@@ -91,7 +91,7 @@ body {
   position: $position;
   z-index: 2;
   bottom: 200px;
-  left: 50%;
+  left: 38%;
 }
 
 .wheel img {
@@ -116,12 +116,48 @@ body {
   }
 }
 
-.small-car {
+.medium-car {
   position: $position;
   z-index: 2;
   bottom: 10px;
-  left: 10%;
+  left: 5%;
   width: 300px;
+}
+
+.medium-car img {
+  width: 100%;
+  animation: animation(car);
+}
+
+.medium-wheel {
+  position: $position;
+  z-index: 2;
+  bottom: 71px;
+  left: 5%;
+}
+
+.medium-wheel img {
+  width: 60px;
+  height: 60px;
+  animation: animation(wheel);
+}
+
+.medium-front-wheel {
+  left: 209px;
+  position: $position;
+}
+
+.medium-back-wheel {
+  left: 24px;
+  position: $position;
+}
+
+.small-car {
+  position: $position;
+  z-index: 2;
+  bottom: 180px;
+  left: 85%;
+  width: 250px;
 }
 
 .small-car img {
@@ -132,18 +168,18 @@ body {
 .small-wheel {
   position: $position;
   z-index: 2;
-  bottom: 71px;
-  left: 10%;
+  bottom: 233px;
+  left: 85%;
 }
 
 .small-wheel img {
-  width: 60px;
-  height: 60px;
+  width: 42px;
+  height: 42px;
   animation: animation(wheel);
 }
 
 .small-front-wheel {
-  left: 209px;
+  left: 177px;
   position: $position;
 }
 
